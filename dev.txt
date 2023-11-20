@@ -1,0 +1,6 @@
+- to delete a branch locally 
+  git branch -d [branch name] --> soft (to see if it is fully merged)
+  git branch -D [branch name] --> hard
+
+- to delete a branch remotely
+  git push [repo name] :[branch name]
